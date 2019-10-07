@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Ethereum Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="headerText">
+        <p>Created by Vsevolod Cable as a fun side project</p>
+        <p><a href="https://github.com/vcable" style="color:white">Github</a></p>
+    </div>
+        <img src="img/ethereum logo.svg" id="ethLogo">
+        <h1 id="title">Ethereum Unit Converter</h1>
+        <div id="conversions">
+            <p>
+                <input type="number" id="etherAmount" value="1"> ether to <select id="etherUnits">
+                    <option id="wei" value="wei">Wei</option>
+                    <option id="mwei" value="mwei">Mwei/Lovelace/Picoether</option>
+                    <option id="gwei" value="gwei">Gwei/Shannon/Nanoether/Nano</option>
+                    <option id="szabo" value="szabo">Szabo/Microether/Micro</option>
+                    <option id="finney" value="finney">Finney/Milliether/Milli</option>
+                    <option id="ether" value="ether">Ether</option>
+                    <option id="kether" value="kether">Kether/Grand</option>
+                    <option id="mether" value="mether">Mether</option>
+                    <option id="gether" value="gether">Gether</option>
+                    <option id="tether" value="tether">Tether</option>
+                </select>
+            </p>
+
+        </div>
+        <div id="resultsContainer">
+            <p id="results">1000000000000000000</p>
+        </div>
+    </div>
+    <script src="bundle.js" type="text/javascript"></script>
+</body>

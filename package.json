@@ -1,0 +1,22 @@
+{
+  "name": "eth_converter",
+  "version": "1.0.0",
+  "description": "Code for my website that converts between various Ethereum units.  I know there are already multiple websites that do this,  but I wanted to work on a fun personal project and learn about web hosting in the process.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcable/Ethereum-Converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcable/Ethereum-Converter/issues"
+  },
+  "dependencies": {
+    "ethereumjs-units": "^0.2.0"
+  },
+  "homepage": "https://github.com/vcable/Ethereum-Converter#readme"
+}
